@@ -12,7 +12,7 @@ impl rai::Ai for Ai {
         if e.no_enemies(0.0, 0.0) > 0.0 && e.no_enemies(0.0, 0.0) < e.no_friends(0.0, 0.0) {
             return Nothing;
         }
-
+d
         let r: u8 = 2;
         return match r % 8 {
             0 => MoveN,
